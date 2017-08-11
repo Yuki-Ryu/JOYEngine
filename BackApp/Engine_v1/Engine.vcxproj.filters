@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Data">
+      <UniqueIdentifier>{013625d8-de16-41ba-8f3c-9f300c357e27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Data\Cursores">
+      <UniqueIdentifier>{4f3110df-557f-4877-ac3e-615ee2c412ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Graphics components">
+      <UniqueIdentifier>{2ed4f5b1-2a54-451a-9509-be085001796d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Information States">
+      <UniqueIdentifier>{ba2fbfcc-368a-4f12-bf63-12ff7d79aef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Sound">
+      <UniqueIdentifier>{f73ddb0f-a0ca-425b-aa32-3c49e744fcd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Input">
+      <UniqueIdentifier>{559cd8e0-3ade-46c5-acb7-d150ae61b62d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Position">
+      <UniqueIdentifier>{760c6a86-fefa-45d5-a7bf-0b8b366a54ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Data\Textures">
+      <UniqueIdentifier>{2a16d5a4-4b4a-4d97-ba00-688c6953ac41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Data\Models">
+      <UniqueIdentifier>{a673f0ef-065b-49bb-860c-80625b0d8ab1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Shaders">
+      <UniqueIdentifier>{d3b4e576-f187-4842-8ec7-cbbec6c390c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\ShaderClass">
+      <UniqueIdentifier>{16bea32a-8eed-4eba-9994-e6ab6ee8387b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Graphics components\ShaderClass">
+      <UniqueIdentifier>{7cddc510-3644-436c-bc30-053dc356f2f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Data\Font">
+      <UniqueIdentifier>{c18d0695-64a6-496d-a734-4ee6596999f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Systemclass.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dclass.cpp">
+      <Filter>Файлы исходного кода\Graphics components</Filter>
+    </ClCompile>
+    <ClCompile Include="cameraclass.cpp">
+      <Filter>Файлы исходного кода\Graphics components</Filter>
+    </ClCompile>
+    <ClCompile Include="modelclass.cpp">
+      <Filter>Файлы исходного кода\Graphics components</Filter>
+    </ClCompile>
+    <ClCompile Include="Bitmapclass.cpp">
+      <Filter>Файлы исходного кода\Graphics components</Filter>
+    </ClCompile>
+    <ClCompile Include="lightclass.cpp">
+      <Filter>Файлы исходного кода\Graphics components</Filter>
+    </ClCompile>
+    <ClCompile Include="TextClass.cpp">
+      <Filter>Файлы исходного кода\Graphics components</Filter>
+    </ClCompile>
+    <ClCompile Include="textureclass.cpp">
+      <Filter>Файлы исходного кода\Graphics components</Filter>
+    </ClCompile>
+    <ClCompile Include="fontclass.cpp">
+      <Filter>Файлы исходного кода\Graphics components</Filter>
+    </ClCompile>
+    <ClCompile Include="fpsclass.cpp">
+      <Filter>Файлы исходного кода\Information States</Filter>
+    </ClCompile>
+    <ClCompile Include="cpuclass.cpp">
+      <Filter>Файлы исходного кода\Information States</Filter>
+    </ClCompile>
+    <ClCompile Include="timerclass.cpp">
+      <Filter>Файлы исходного кода\Information States</Filter>
+    </ClCompile>
+    <ClCompile Include="Soundclass.cpp">
+      <Filter>Файлы исходного кода\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="inputclass.cpp">
+      <Filter>Файлы исходного кода\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Frustumclass.cpp">
+      <Filter>Файлы исходного кода\Graphics components</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelListclass.cpp">
+      <Filter>Файлы исходного кода\Graphics components</Filter>
+    </ClCompile>
+    <ClCompile Include="Positionclass.cpp">
+      <Filter>Файлы исходного кода\Position</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureArrayClass.cpp">
+      <Filter>Файлы исходного кода\Graphics components</Filter>
+    </ClCompile>
+    <ClCompile Include="applicationclass.cpp">
+      <Filter>Файлы исходного кода\Graphics components</Filter>
+    </ClCompile>
+    <ClCompile Include="terrainclass.cpp">
+      <Filter>Файлы исходного кода\Graphics components</Filter>
+    </ClCompile>
+    <ClCompile Include="colorshaderclass.cpp">
+      <Filter>Файлы исходного кода\Graphics components\ShaderClass</Filter>
+    </ClCompile>
+    <ClCompile Include="FontShaderClass.cpp">
+      <Filter>Файлы исходного кода\Graphics components\ShaderClass</Filter>
+    </ClCompile>
+    <ClCompile Include="lightshaderclass.cpp">
+      <Filter>Файлы исходного кода\Graphics components\ShaderClass</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTextureShaderClass.cpp">
+      <Filter>Файлы исходного кода\Graphics components\ShaderClass</Filter>
+    </ClCompile>
+    <ClCompile Include="shadermanagerclass.cpp">
+      <Filter>Файлы исходного кода\Graphics components\ShaderClass</Filter>
+    </ClCompile>
+    <ClCompile Include="textureshaderclass.cpp">
+      <Filter>Файлы исходного кода\Graphics components\ShaderClass</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="d3dclass.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="modelclass.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="cameraclass.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="textureclass.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="lightclass.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Bitmapclass.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="fontclass.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="TextClass.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Soundclass.h">
+      <Filter>Файлы исходного кода\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="inputclass.h">
+      <Filter>Файлы исходного кода\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="cpuclass.h">
+      <Filter>Файлы исходного кода\Information States</Filter>
+    </ClInclude>
+    <ClInclude Include="fpsclass.h">
+      <Filter>Файлы исходного кода\Information States</Filter>
+    </ClInclude>
+    <ClInclude Include="timerclass.h">
+      <Filter>Файлы исходного кода\Information States</Filter>
+    </ClInclude>
+    <ClInclude Include="Frustumclass.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelListclass.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Systemclass.h">
+      <Filter>Файлы исходного кода</Filter>
+    </ClInclude>
+    <ClInclude Include="Positionclass.h">
+      <Filter>Файлы исходного кода\Position</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureArrayClass.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="applicationclass.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="terrainclass.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="colorshaderclass.h">
+      <Filter>Заголовочные файлы\ShaderClass</Filter>
+    </ClInclude>
+    <ClInclude Include="FontShaderClass.h">
+      <Filter>Заголовочные файлы\ShaderClass</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTextureShaderClass.h">
+      <Filter>Заголовочные файлы\ShaderClass</Filter>
+    </ClInclude>
+    <ClInclude Include="lightshaderclass.h">
+      <Filter>Заголовочные файлы\ShaderClass</Filter>
+    </ClInclude>
+    <ClInclude Include="textureshaderclass.h">
+      <Filter>Заголовочные файлы\ShaderClass</Filter>
+    </ClInclude>
+    <ClInclude Include="shadermanagerclass.h">
+      <Filter>Заголовочные файлы\ShaderClass</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\Cursores\Pulse_Glass.ani">
+      <Filter>Файлы ресурсов\Data\Cursores</Filter>
+    </None>
+    <None Include="Shaders\color.ps">
+      <Filter>Файлы ресурсов\Shaders</Filter>
+    </None>
+    <None Include="Shaders\color.vs">
+      <Filter>Файлы ресурсов\Shaders</Filter>
+    </None>
+    <None Include="Shaders\font.ps">
+      <Filter>Файлы ресурсов\Shaders</Filter>
+    </None>
+    <None Include="Shaders\font.vs">
+      <Filter>Файлы ресурсов\Shaders</Filter>
+    </None>
+    <None Include="Shaders\light.ps">
+      <Filter>Файлы ресурсов\Shaders</Filter>
+    </None>
+    <None Include="Shaders\light.vs">
+      <Filter>Файлы ресурсов\Shaders</Filter>
+    </None>
+    <None Include="Shaders\multitexture.ps">
+      <Filter>Файлы ресурсов\Shaders</Filter>
+    </None>
+    <None Include="Shaders\multitexture.vs">
+      <Filter>Файлы ресурсов\Shaders</Filter>
+    </None>
+    <None Include="Shaders\texture.ps">
+      <Filter>Файлы ресурсов\Shaders</Filter>
+    </None>
+    <None Include="Shaders\texture.vs">
+      <Filter>Файлы ресурсов\Shaders</Filter>
+    </None>
+    <None Include="Framework.docx">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Data\Textures\bitmap1.bmp">
+      <Filter>Файлы ресурсов\Data\Textures</Filter>
+    </Image>
+    <Image Include="Data\Textures\dirt01.dds">
+      <Filter>Файлы ресурсов\Data\Textures</Filter>
+    </Image>
+    <Image Include="Data\Textures\seafloor.dds">
+      <Filter>Файлы ресурсов\Data\Textures</Filter>
+    </Image>
+    <Image Include="Data\Textures\stone01.dds">
+      <Filter>Файлы ресурсов\Data\Textures</Filter>
+    </Image>
+    <Image Include="Data\Textures\test.dds">
+      <Filter>Файлы ресурсов\Data\Textures</Filter>
+    </Image>
+    <Image Include="Data\Textures\texture-diffuse.dds">
+      <Filter>Файлы ресурсов\Data\Textures</Filter>
+    </Image>
+    <Image Include="Data\Font\font01.tga">
+      <Filter>Файлы ресурсов\Data\Font</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Data\Models\Cube.txt">
+      <Filter>Файлы ресурсов\Data\Models</Filter>
+    </Text>
+    <Text Include="Data\Models\model.txt">
+      <Filter>Файлы ресурсов\Data\Models</Filter>
+    </Text>
+    <Text Include="Data\Models\model2.txt">
+      <Filter>Файлы ресурсов\Data\Models</Filter>
+    </Text>
+    <Text Include="Data\Models\sphere.txt">
+      <Filter>Файлы ресурсов\Data\Models</Filter>
+    </Text>
+    <Text Include="Data\Models\square.txt">
+      <Filter>Файлы ресурсов\Data\Models</Filter>
+    </Text>
+    <Text Include="Data\Font\font01.txt">
+      <Filter>Файлы ресурсов\Data\Font</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Data\sound01.wav">
+      <Filter>Файлы ресурсов\Data</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
